@@ -1,0 +1,32 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Default suite</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="e67e6a">  <td>20/10/08 12:24:52</td>   <td>0</td> <td title="&gt;&gt;BaseClass.beforesuite()[pri:0, instance:testScripts.NewLL@1fc2b765]">&gt;&gt;beforesuite</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@2050404090</td>   <td></td> </tr>
+<tr bgcolor="a3fe6e">  <td>20/10/08 12:24:53</td>   <td>227</td> <td title="&gt;&gt;NewLL.Start()[pri:0, instance:testScripts.NewLL@1fc2b765]">&gt;&gt;Start</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@2050404090</td>   <td></td> </tr>
+<tr bgcolor="e67e6a">  <td>20/10/08 12:24:53</td>   <td>256</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;BaseClass.beforemethod(org.testng.ITestContext)[pri:0, instance:testScripts.NewLL@1fc2b765]">&gt;&gt;beforemethod</td> 
+<td>&nbsp;</td>  <td>main@2050404090</td>   <td></td> </tr>
+<tr bgcolor="a3fe6e">  <td>20/10/08 12:24:54</td>   <td>1495</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;NewLL.Predatacheck()[pri:0, instance:testScripts.NewLL@1fc2b765]">&gt;&gt;Predatacheck</td> 
+<td>&nbsp;</td>  <td>main@2050404090</td>   <td></td> </tr>
+<tr bgcolor="a3fe6e">  <td>20/10/08 12:24:54</td>   <td>1945</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="NewLL.NewLL_Public()[pri:0, instance:testScripts.NewLL@1fc2b765]">NewLL_Public</td> 
+  <td>main@2050404090</td>   <td></td> </tr>
+<tr bgcolor="a3fe6e">  <td>20/10/08 12:29:54</td>   <td>301354</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;NewLL.CloseBrowsers()[pri:0, instance:testScripts.NewLL@1fc2b765]">&lt;&lt;CloseBrowsers</td> 
+<td>&nbsp;</td>  <td>main@2050404090</td>   <td></td> </tr>
+<tr bgcolor="e67e6a">  <td>20/10/08 12:29:54</td>   <td>301355</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseClass.aftermethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:testScripts.NewLL@1fc2b765]">&lt;&lt;aftermethod</td> 
+<td>&nbsp;</td>  <td>main@2050404090</td>   <td></td> </tr>
+<tr bgcolor="e67e6a">  <td>20/10/08 12:29:54</td>   <td>302091</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;BaseClass.beforemethod(org.testng.ITestContext)[pri:0, instance:testScripts.NewLL@1fc2b765]">&gt;&gt;beforemethod</td> 
+<td>&nbsp;</td>  <td>main@2050404090</td>   <td></td> </tr>
+<tr bgcolor="a3fe6e">  <td>20/10/08 12:29:55</td>   <td>302278</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;NewLL.Predatacheck()[pri:0, instance:testScripts.NewLL@1fc2b765]">&gt;&gt;Predatacheck</td> 
+<td>&nbsp;</td>  <td>main@2050404090</td>   <td></td> </tr>
+<tr bgcolor="a3fe6e">  <td>20/10/08 12:29:55</td>   <td>302494</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="NewLL.NewLL_Public()[pri:0, instance:testScripts.NewLL@1fc2b765]">NewLL_Public</td> 
+  <td>main@2050404090</td>   <td></td> </tr>
+<tr bgcolor="a3fe6e">  <td>20/10/08 12:34:08</td>   <td>555696</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;NewLL.CloseBrowsers()[pri:0, instance:testScripts.NewLL@1fc2b765]">&lt;&lt;CloseBrowsers</td> 
+<td>&nbsp;</td>  <td>main@2050404090</td>   <td></td> </tr>
+<tr bgcolor="e67e6a">  <td>20/10/08 12:34:08</td>   <td>555697</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseClass.aftermethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:testScripts.NewLL@1fc2b765]">&lt;&lt;aftermethod</td> 
+<td>&nbsp;</td>  <td>main@2050404090</td>   <td></td> </tr>
+<tr bgcolor="a3fe6e">  <td>20/10/08 12:34:08</td>   <td>556036</td> <td title="&lt;&lt;NewLL.End()[pri:0, instance:testScripts.NewLL@1fc2b765]">&lt;&lt;End</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@2050404090</td>   <td></td> </tr>
+<tr bgcolor="e67e6a">  <td>20/10/08 12:34:08</td>   <td>556068</td> <td title="&lt;&lt;BaseClass.aftersuite()[pri:0, instance:testScripts.NewLL@1fc2b765]">&lt;&lt;aftersuite</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@2050404090</td>   <td></td> </tr>
+</table>

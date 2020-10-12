@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="62193" started-at="2020-10-12T08:01:59Z" finished-at="2020-10-12T08:03:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="62193" started-at="2020-10-12T08:01:59Z" finished-at="2020-10-12T08:03:01Z">
+      <class name="testScripts.NewLL">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:testScripts.NewLL@51c8530f]" name="beforesuite" is-config="true" duration-ms="439" started-at="2020-10-12T08:01:59Z" finished-at="2020-10-12T08:01:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="Start()[pri:0, instance:testScripts.NewLL@51c8530f]" name="Start" is-config="true" duration-ms="1" started-at="2020-10-12T08:01:59Z" depends-on-methods="frameworkLibrary.BaseClass.beforesuite" finished-at="2020-10-12T08:01:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testScripts.NewLL@51c8530f]" name="beforemethod" is-config="true" duration-ms="2765" started-at="2020-10-12T08:01:59Z" finished-at="2020-10-12T08:02:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@e19908e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="Predatacheck()[pri:0, instance:testScripts.NewLL@51c8530f]" name="Predatacheck" is-config="true" duration-ms="721" started-at="2020-10-12T08:02:02Z" finished-at="2020-10-12T08:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Predatacheck -->
+        <test-method status="FAIL" signature="NewLL_Public()[pri:0, instance:testScripts.NewLL@51c8530f]" name="NewLL_Public" duration-ms="12140" started-at="2020-10-12T08:02:03Z" finished-at="2020-10-12T08:02:15Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at frameworkLibrary.ReportLibrary.reportEvent(ReportLibrary.java:72)
+at applicationPages.NewLLRegistrtionPage.Mouserhoveron_LearnerLicence(NewLLRegistrtionPage.java:1407)
+at applicationPages.UniversalState.Validating_lldl_same_time_Check(UniversalState.java:244)
+at applicationPages.UniversalState.Initiate_Process(UniversalState.java:217)
+at applicationPages.UniversalState.PerformJob(UniversalState.java:201)
+at testScripts.NewLL.NewLL_Public(NewLL.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewLL_Public -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:testScripts.NewLL@51c8530f]" name="aftermethod" is-config="true" duration-ms="621" started-at="2020-10-12T08:02:15Z" finished-at="2020-10-12T08:02:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NewLL_Public status=FAILURE method=NewLL.NewLL_Public()[pri:0, instance:testScripts.NewLL@51c8530f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@e19908e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="CloseBrowsers()[pri:0, instance:testScripts.NewLL@51c8530f]" name="CloseBrowsers" is-config="true" duration-ms="0" started-at="2020-10-12T08:02:15Z" finished-at="2020-10-12T08:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowsers -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testScripts.NewLL@51c8530f]" name="beforemethod" is-config="true" duration-ms="160" started-at="2020-10-12T08:02:16Z" finished-at="2020-10-12T08:02:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@e19908e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="Predatacheck()[pri:0, instance:testScripts.NewLL@51c8530f]" name="Predatacheck" is-config="true" duration-ms="184" started-at="2020-10-12T08:02:16Z" finished-at="2020-10-12T08:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Predatacheck -->
+        <test-method status="FAIL" signature="NewLL_Public()[pri:0, instance:testScripts.NewLL@51c8530f]" name="NewLL_Public" duration-ms="45272" started-at="2020-10-12T08:02:16Z" finished-at="2020-10-12T08:03:01Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at frameworkLibrary.ReportLibrary.reportEvent(ReportLibrary.java:72)
+at applicationPages.NewLLRegistrtionPage.Mouserhoveron_LearnerLicence(NewLLRegistrtionPage.java:1407)
+at applicationPages.UniversalState.Validating_lldl_same_time_Check(UniversalState.java:240)
+at applicationPages.UniversalState.Initiate_Process(UniversalState.java:217)
+at applicationPages.UniversalState.PerformJob(UniversalState.java:142)
+at testScripts.NewLL.NewLL_Public(NewLL.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewLL_Public -->
+        <test-method status="PASS" signature="CloseBrowsers()[pri:0, instance:testScripts.NewLL@51c8530f]" name="CloseBrowsers" is-config="true" duration-ms="1" started-at="2020-10-12T08:03:01Z" finished-at="2020-10-12T08:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowsers -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:testScripts.NewLL@51c8530f]" name="aftermethod" is-config="true" duration-ms="264" started-at="2020-10-12T08:03:01Z" finished-at="2020-10-12T08:03:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NewLL_Public status=FAILURE method=NewLL.NewLL_Public()[pri:0, instance:testScripts.NewLL@51c8530f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@e19908e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="End()[pri:0, instance:testScripts.NewLL@51c8530f]" name="End" is-config="true" duration-ms="15" started-at="2020-10-12T08:03:02Z" finished-at="2020-10-12T08:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:testScripts.NewLL@51c8530f]" name="aftersuite" is-config="true" duration-ms="6784" started-at="2020-10-12T08:03:02Z" depends-on-methods="testScripts.NewLL.End" finished-at="2020-10-12T08:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- testScripts.NewLL -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
